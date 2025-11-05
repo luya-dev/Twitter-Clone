@@ -1,0 +1,83 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+}
+/* The left aside */
+.leftAside{
+    background-color: red;
+    width: 24%;
+    height: 640px;
+    position: fixed;
+}
+
+.logo{
+    width: 25px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.icon{
+    padding-right: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+.menuElement{
+    display: flex;
+    align-content: center;
+    margin-left: 67px;
+}
+.postButton{
+    font-size: large;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.account {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+    
+}
+.account .profile{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.account .accountInformation .username{
+    font-weight: bold;
+}
+.account .accountInformation .at{
+    color: #6B737B;
+}
+.accountInformation{
+    margin-right: 100px
+}
+.account .moreOptions{
+    margin-right: 5px;
+}
+
+.underAside{
+    width: 25.5%;
+}
+.mainSection{
+    background-color: blue;
+    width: 43.5%;
+    height: 500px;
+}
