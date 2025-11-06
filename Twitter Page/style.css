@@ -1,8 +1,9 @@
 *{
     font-family: "Roboto", sans-serif;
-    /* color: white; */
+    color: white; 
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 body{
@@ -10,7 +11,7 @@ body{
 }
 /* The left aside */
 .leftAside{
-    background-color: red;
+    /* background-color: red; */
     width: 24%;
     height: 640px;
     position: fixed;
@@ -27,29 +28,35 @@ body{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 26px;
     margin-top: 20px;
 }
 .menuElement{
+    font-size: small;
+    font-weight: 1000;
     display: flex;
     align-content: center;
     margin-left: 67px;
 }
 .postButton{
-    font-size: large;
+    font-size: medium;
+    font-weight: 500;
     width: 70%;
     height: 50px;
     padding: 10px;
     margin-left: 50px;
     border-radius: 30px;
     border: none;
+    background-color: #FFFF;
+    color: black;
 }
 .account {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 17px;
     display: flex;
     align-items: center;
+    background-color: rgba(255, 0, 0, 0);
 
     
 }
