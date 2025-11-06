@@ -85,7 +85,14 @@ body{
     width: 25.5%;
 }
 .mainSection{
-    background-color: blue;
+    margin-left: 100px;
     width: 43.5%;
     height: 500px;
+}
+.feed_heading{
+    display: flex;
+}
+.feed_heading img{
+    border-radius: 50%;
+    height: 20px;
 }
