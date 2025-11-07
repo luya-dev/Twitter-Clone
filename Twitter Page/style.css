@@ -18,25 +18,39 @@ body{
 }
 
 .logo{
-    width: 25px;
-    margin-left: 70px;
-    margin-top: 20px;
+    width: 30px;
+    margin-left: 65px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.logo:hover{
+    background-color: rgba(82, 82, 82, 0.753);
+    border-radius: 50px;
 }
 .icon{
+    width: 30px;
     padding-right: 10px;
 }
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 26px;
-    margin-top: 20px;
+    gap: 20px;
+    margin-top: 10px;
 }
 .menuElement{
-    font-size: small;
-    font-weight: 1000;
+    
     display: flex;
     align-content: center;
+    align-items: center;
     margin-left: 67px;
+}
+.menuElement p{
+    font-size: large;
+    font-weight: 600;
+}
+.menuElement:hover {
+    background-color: rgba(82, 82, 82, 0.753);
 }
 .postButton{
     font-size: medium;
@@ -84,6 +98,40 @@ body{
 .underAside{
     width: 25.5%;
 }
+/* The popup menu */
+.subMenu{
+    position: fixed;
+    bottom: 11rem;
+    left: 4rem;
+    height: 440px;
+    width: 300px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0.5px rgba(255, 255, 255, 0.7)
+}
+.subMenuElement{
+    display: flex; 
+    margin-left: 10px; 
+    margin-top: 15px; 
+}
+.subMenuElement img{
+    margin-right: 20px;
+}
+.subMenuElement p{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
 .mainSection{
     margin-left: 100px;
     width: 43.5%;
