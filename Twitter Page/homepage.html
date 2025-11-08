@@ -14,7 +14,9 @@
   </head>
   <body>
     <aside class="leftAside">
-      <img class="logo" src="SVG's/twitter-x.svg" alt="" />
+      <div class="logoContainer">
+       <img class="logo" src="SVG's/twitter-x.svg" alt="" /> 
+      </div>
       <div class="menu">
         <div class="menuElement">
           <img class="icon" src="SVG's/home.svg" alt="" />
@@ -48,7 +50,7 @@
           <img class="icon" src="SVG's/person.svg" alt="" />
           <p>Profile</p>
         </div>
-        <div class="menuElement">
+        <div class="menuElement" onclick="subMenuToggle()">
           <img class="icon" src="SVG's/more options horizontal.svg" alt="" />
           <p>More</p>
         </div>
@@ -57,10 +59,10 @@
 
         <div class="account">
           <div class="photo">
-            <img class="profile" src="SVG's/person.svg" alt="" />
+            <img class="profile" src="images/user.png"" />
           </div>
           <div class="accountInformation">
-            <p class="username">Anna anon</p>
+            <p class="username">Anna</p>
             <p class="tag">@anon</p>
           </div>
           <div class="moreOptions">

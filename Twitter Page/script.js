@@ -1,6 +1,7 @@
 const subMenu  = document.querySelector(".subMenu");
 
-subHidden = true;
+
+let subHidden = true;
 
 function subMenuToggle(){
     if(subHidden){
@@ -12,5 +13,7 @@ function subMenuToggle(){
         subHidden = true;
     }
 }
+
+
 
 document.addEventListener("DOMContentLoaded", subMenuToggle);
