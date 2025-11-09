@@ -16,7 +16,8 @@ function subMenuToggle(){
 
 document.addEventListener("click", e=>{
     if(!subMenu.contains(e.target) && !toggle.contains(e.target)){
-        subMenuToggle();
+        subMenu.classList.add("hidden");
+        subHidden = false;
     }
 
 })
