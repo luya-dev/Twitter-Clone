@@ -1,5 +1,5 @@
 const subMenu  = document.querySelector(".subMenu");
-
+const toggle = document.querySelector("#menuToggle");
 
 let subHidden = true;
 
@@ -14,6 +14,12 @@ function subMenuToggle(){
     }
 }
 
+document.addEventListener("click", e=>{
+    if(!subMenu.contains(e.target) && !toggle.contains(e.target)){
+        subMenuToggle();
+    }
+
+})
 
 
 document.addEventListener("DOMContentLoaded", subMenuToggle);
