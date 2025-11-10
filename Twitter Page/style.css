@@ -3,11 +3,12 @@
     color: white; 
     padding: 0;
     margin: 0;
-    background-color: black;
+    
 }
 
 body{
     display: flex;
+    background-color: black;
 }
 /* The left aside */
 .leftAside{
@@ -148,7 +149,8 @@ body{
     flex-direction: column;
     gap: 5px;
     border-radius: 10px;
-    box-shadow: 0 0 7px 0.5px rgba(255, 255, 255, 0.7)
+    box-shadow: 0 0 7px 0.5px rgba(255, 255, 255, 0.7);
+    background-color: black;
 }
 .subMenuElement{
     display: flex; 
