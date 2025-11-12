@@ -177,17 +177,40 @@ body{
 }
 
 
-
-
 .mainSection{
     margin-left: 100px;
     width: 43.5%;
     height: 500px;
+    border: 1px solid grey;
 }
+
+
 .feed_heading{
     display: flex;
 }
+
+
 .feed_heading img{
-    border-radius: 50%;
-    height: 20px;
+    border-radius: 30%;
+    height: 40px;
 }
+
+.feed_heading h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.feed_heading h3{
+    font-size: larger;
+}
+
+.feed_main img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    border: 1px solid grey;
+}
+
+
