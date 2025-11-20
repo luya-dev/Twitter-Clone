@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <aside class="leftAside">
+        <div class="logoContainer">
+          <img class="logo" src="SVG's/twitter-x.svg" alt="" />
+        </div>
+        <div class="menu">
+          <div class="menuElement">
+            <img class="icon" src="SVG's/home.svg" alt="" />
+            <p>Home</p>
+          </div>
+  
+          <div class="menuElement">
+            <img class="icon" src="SVG's/search.svg" alt="" />
+            <p>Explore</p>
+          </div>
+  
+          <div class="menuElement">
+            <img class="icon" src="SVG's/notifications.svg" alt="" />
+            <p>Notifications</p>
+          </div>
+  
+          <div class="menuElement">
+            <img class="icon" src="SVG's/messages.svg" alt="" />
+            <p>Messages</p>
+          </div>
+  
+          <div class="menuElement">
+            <img class="icon" src="SVG's/fake grok.svg" alt="" />
+            <p>Grok</p>
+          </div>
+          <div class="menuElement">
+            <img class="icon" src="SVG's/people.svg" alt="" />
+            <p>Communities</p>
+          </div>
+          <div class="menuElement">
+            <img class="icon" src="SVG's/person.svg" alt="" />
+            <p>Profile</p>
+          </div>
+          <div id="menuToggle" class="menuElement" onclick="subMenuToggle()">
+            <img class="icon" src="SVG's/more options horizontal.svg" alt="" />
+            <p>More</p>
+          </div>
+  
+          <button class="postButton">Post</button>
+  
+          <div class="account">
+            <div class="photo">
+              <img class="profile" src="images/user.png" />
+            </div>
+            <div class="accountInformation">
+              <p class="username">Anna</p>
+              <p class="tag">@anon</p>
+            </div>
+            <div class="moreOptions">
+              <img src="SVG's/more options horizontal.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="subMenu">
+        <span class="subMenuElement">
+          <img src="SVG's/messages.svg" alt="" />
+          <p>Chat</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/list.svg" alt="" />
+          <p>List</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/twitter-x.svg" alt="" />
+          <p>Premium</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/bookmarks.svg" alt="" />
+          <p>Bookmarks</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/payments.svg" alt="" />
+          <p>Chat</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/chart.svg" alt="" />
+          <p>Ads</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/mic.svg" alt="" />
+          <p>Create your space</p>
+        </span>
+        <span class="subMenuElement">
+          <img src="SVG's/settings.svg" alt="" />
+          <p>Settings and privacy</p>
+        </span>
+      </div>
+  
+      <div class="underAside"> </div>
+      <section class="mainSection">
+        <!---Following-->
+        <div>
+              <div class="feed-container">
+  
+      <!-- Tabs -->
+      <div class="tabs">
+        <span onclick="window.location.href='homepage.html'" >For you</span>
+        <span class="active">Following</span>
+      </div>
+  
+      <!-- Tweet Box -->
+      <div class="tweet-box">
+        <div class="avatar">
+          <img src="images/user.png" alt="" srcset="" id="avatar">
+        </div>
+        <div class="input-area">
+          <textarea placeholder="What’s happening?"></textarea>
+          <div class="actions">
+            <div class="icons">💬 📷 🎥 😃 📍 </div>
+  
+  
+            <button class="post-btn">Post</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Posts -->
+      <div class="post">
+        <div class="post_heading">
+        <img src="images/Samsung icon 1.jpg" alt="" srcset="" id="icon">
+        <b>Samsung Mobile SA <img src="" alt=""> </b> <span>@SamsungMobileSA · 4m</span></div>
+        <p>
+          Who knew paying with your phone could pay off this much? <br>
+          7 <span class="highlight">#SamsungWallet</span> taps could score you some seriously cool 
+          <span class="highlight">#Galaxy</span> prizes.<br>
+          The gift that just keeps on giving  <span class="highlight">#SamsungPay</span>
+        </p>
+        <div class="image-card">
+        <img src="images/img111.jpg"></div>
+      
+      
+      <div class="tweet-engagement">
+              <span class="engagement-item">
+                  <i class="fas fa-comment"></i> 34K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-retweet"></i> 18K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-heart"></i> 3M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-chart-bar"></i> 56K
+              </span>
+          </div>
+      </div>
+  
+  
+      <div class="post">
+        <div class="post_heading">
+        <img src="images/ai icon.jpg" alt="" srcset="" id="icon">
+        <b>Tech SA</b> <span>@TechSA · 8h</span></div>
+        <p>
+          New <span class="highlight">#AI</span> updates are rolling out this week! <br>
+          Experience smarter tools and faster performance.
+        </p>
+        <div class="image-card">
+          <img src="images/Ai picture 2.jpg" >
+        </div>
+          <div class="tweet-engagement">
+              <span class="engagement-item">
+                  <i class="fas fa-comment"></i> 3K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-retweet"></i> 18
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-heart"></i> 30K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-chart-bar"></i> 56K
+              </span>
+          </div>
+      </div>
+  
+      <div class="post">
+        <div class="post_heading">
+        <img src="images/car icon.jpg" alt="" srcset="" id="icon">
+  <b>    E30 Owners</b> <span>@E30ankara · 8h</span></div>
+  <p>
+   <span class="highlight">#Spinfest25</span> will be in Soweto this coming Saturday
+   <br>YOU ALL ARE INVITED TO SHARE YOUR TALENT WITH US!! 
+  </p>
+  <div class=" image-card ">
+  <img src="images/img222.jpg" >    
+  </div>
+
+      <div class="tweet-engagement">
+              <span class="engagement-item">
+                  <i class="fas fa-comment"></i> 34K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-retweet"></i> 120K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-heart"></i> 9M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-chart-bar"></i> 6K
+              </span>
+          </div>
+  </div>
+  
+      <div class="post">
+        <div class="post_heading">
+        <img src="images/manchester icon.jpg" alt="" srcset="" id="icon">
+      <b>Manchester United</b> <span>@unitedLIFE · 24h</span></div>
+  <p>
+   Our win streak is here <span class="highlight">#UTD4WIN</span> We wish all teams the best in the 
+   new season  
+  </p>
+  
+  <div class=" image-card ">
+  <img src="images/img4.jpg">    
+  </div>
+      <div class="tweet-engagement">
+              <span class="engagement-item">
+                  <i class="fas fa-comment"></i> 100K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-retweet"></i> 1M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-heart"></i> 3K
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-chart-bar"></i> 6K
+              </span>
+          </div>
+      
+  </div>
+  
+  <!-- codesssa-->
+  
+      <div class="post">
+        <div class="post_heading">
+        <img src="images/icon1 c.jpg" alt="" srcset="" id="icon">
+      <b>Love For Women</b> <span>@Feminism · 1h</span></div>
+  <p>
+     #WomenForChange against GBV
+  </p>
+  
+  <div class=" image-card ">
+  <img src="images/postwomen.jpg">    
+  </div>
+      <div class="tweet-engagement">
+              <span class="engagement-item">
+                  <i class="fas fa-comment"></i> 34M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-retweet"></i> 18M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-heart"></i> 100M
+              </span>
+              <span class="engagement-item">
+                  <i class="fas fa-chart-bar"></i> 5M
+              </span>
+          </div>
+      
+  </div>
+  
+</section>  
+        </div>
+        <aside class="rightAside">
+            <div class="sidebar2">
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                </div>
+        
+                <div class="container">
+                    <h2>What’s happening</h2>
+                    <ul class="trending">
+                        <li>
+                            <p class="category">Trending in South Africa</p>
+                            <p class="topic">General Khumalo</p>
+                            <p class="posts">9,981 posts</p>
+                        </li>
+                        <li>
+                            <p class="category">Trending in South Africa</p>
+                            <p class="topic">Brown Mogotsi</p>
+                            <p class="posts">10.8K posts</p>
+                        </li>
+                        <li>
+                            <p class="category">Only on X · Trending</p>
+                            <p class="topic">#MillionaireAshleyOgie</p>
+                            <p class="posts">20.8K posts</p>
+                        </li>
+                        <li>
+                            <p class="category">Politics · Trending</p>
+                            <p class="topic">Cuomo</p>
+                            <p class="posts">422K posts</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="show-more">Show more</a>
+                </div>
+        
+                <div class="container">
+                    <h2>Today’s News</h2>
+                    <ul class="news">
+                        <li>
+                            <p class="headline">2025 Glamour Women of the Year Awards honor Zendaya and Ayana Johnson</p>
+                            <p class="time">8 hours ago · Entertainment · 6,012 posts</p>
+                        </li>
+                        <li>
+                            <p class="headline">Khumalo testifies Sibiya used convicted carjacker’s vehicle for protection</p>
+                            <p class="time">12 hours ago · News · 1,944 posts</p>
+                        </li>
+                        <li>
+                            <p class="headline">Democrats sweep Virginia governorship and statewide offices</p>
+                            <p class="time">9 hours ago · News · 350.7K posts</p>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="container">
+                    <h2>Who to follow</h2>
+                    <ul class="follow">
+                        <li>
+                            <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="Avatar">
+                            <div>
+                                <p class="name">@CityPowerJhb</p>
+                                <p class="handle">City Power Jhb</p>
+                            </div>
+                            <button>Follow</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+            <script src="script.js"></script>
+            </aside>
+          </aside>
+          
+        <div id="chatbot-icon" class="chatbot-icon">
+              <img src="images/chatbot icon.jpg" alt="Chatbot Icon">
+          </div>
+      
+          <!-- Modal -->
+          <div id="chatbot-modal" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="modal-header">
+                      <span class="fast-logo">Fast</span>
+                  </div>
+                  <h2>How can I help you today?</h2>
+                  <div class="search-bar">
+                      <input type="text" placeholder="Ask anything">
+                      <i class="fas fa-paperclip"></i>
+                      <i class="fas fa-arrow-up"></i>
+                  </div>
+                  <div class="button-group">
+                      <button>
+                          <i class="fas fa-square"></i>
+                          Create Images
+                      </button>
+                      <button>
+                          <i class="fas fa-pencil-alt"></i>
+                          Edit Image
+                      </button>
+                  </div>
+                  <button class="latest-news">
+                      <i class="fas fa-newspaper"></i>
+                      Latest News
+                  </button>
+              </div>
+          </div>
+      
+        <script src="script.js"></script>
+</body>
+</html>
